@@ -147,6 +147,12 @@ a img {
 }
 
 @media screen and (max-width:600px) {
+    footer {
+        position: relative;
+        text-align: center;
+        top: 50px;
+    }
+
     .container {
         flex-direction: column;
         width: 344px;
@@ -155,7 +161,6 @@ a img {
 
     .mobile-image {
         display: block;
-        width: 344px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
