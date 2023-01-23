@@ -11,6 +11,7 @@
 
     --very-dark-blue: hsl(212, 21%, 14%);
     --dark-grayish-blue: hsl(228, 12%, 48%);
+    --very-dark-green: rgb(26, 64, 49);
     --white: hsl(0, 0%, 100%);
 }
 
@@ -145,6 +146,10 @@ a img {
     border-radius: 8px;
     margin-top: 26px;
     font-weight: 700;
+}
+
+.cart-btn:hover {
+    background-color: var(--very-dark-green);
 }
 
 @media screen and (max-width:600px) {
