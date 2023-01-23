@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root {
+    /* ### Primary colors */
+
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    /* ### Neutral colors */
+
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--cream);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14PX;
+    color: var(--dark-cyan);}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    translate: -50%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li:last-child {
+    margin-left: 18px;
+    margin-bottom: 1px;
+}
+
+a img {
+    margin-right: 8px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    display: flex;
+    max-width: 600px;
+    height: 450px;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.image {
+    width: auto;
+    max-height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.details-container {
+    max-width: 78.6%;
+    margin: auto;
+    padding-top: 32px;
+}
+
+.product-type {
+    letter-spacing: 5px;
+    font-size: 0.75rem;
+}
+
+.product-title {
+    font-family: 'Fraunces', serif;
+    color: var(--very-dark-blue);
+    font-size: 2rem;
+    line-height: 1;
+    margin-top: 21px;
+}
+
+.description {
+    line-height: 1.65;
+    margin-top: 24px;
+    color: var(--dark-grayish-blue);
+}
+
+.sale-price {
+    color: var(--dark-cyan);
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+}
+
+.reg-price {
+    color: var(--dark-grayish-blue);
+    font-size: 13px;
+}
+
+.cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 48px;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    text-decoration: none;
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 26px;
+    font-weight: 700;
+}
+
