@@ -120,11 +120,13 @@ a img {
     color: var(--dark-cyan);
     font-size: 32px;
     font-family: 'Fraunces', serif;
+    
 }
 
 .reg-price {
     color: var(--dark-grayish-blue);
     font-size: 13px;
+    
 }
 
 .cart-btn {
@@ -144,6 +146,10 @@ a img {
 
 .cart-btn:hover {
     background-color: var(--very-dark-green);
+}
+
+.add {
+    margin-left: 2px;
 }
 
 @media screen and (max-width:600px) {
