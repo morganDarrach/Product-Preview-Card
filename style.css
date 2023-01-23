@@ -91,10 +91,6 @@ a img {
 
 .mobile-image {
     display: none;
-    width: 100%;
-    height: auto;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 .details-container {
@@ -161,6 +157,9 @@ a img {
 
     .mobile-image {
         display: block;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     .desktop-image {
